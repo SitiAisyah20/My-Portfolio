@@ -6,11 +6,8 @@ import Title from "../../Layout/Title";
 class Interest extends Component {
   render() {
     return (
-      <section
-        id="interest"
-        className="w-full border-b-[1px] border-b-black min-h-screen flex-col text-center"
-      >
-        <div className="text-5xl font-bold" data-aos={"slide-down"}>
+      <div id="interest" className="min-h-screen flex-col text-center">
+        <div className="text-5xl py-8 font-bold" data-aos={"slide-down"}>
           Interest
         </div>
         <Title />
@@ -19,7 +16,7 @@ class Interest extends Component {
             <Card item={item} key={item.id} />
           ))}
         </div>
-      </section>
+      </div>
     );
   }
 }

@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "Display Currency Rates",
+    desc: "React app for project currency rates to display CAD, IDR, JPY, CHF, EUR and GBP currencies using API from https://currencyfreaks.com/",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "red-600",
+      },
+      {
+        name: "API from currencyfreaks",
+        color: "green-600",
+      },
+    ],
+    img: require("../assets/images/currency.png"),
+    link: "https://currency-rates-nine.vercel.app/",
+    code: "https://github.com/SitiAisyah20/Currency-Rates.git",
+  },
+  {
     title: "Online Simple Calculator",
     desc: "Online Simple Calculator with Javascript Fundamental include Arithmatics Operations",
     tags: [
