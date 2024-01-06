@@ -1,5 +1,5 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaBrain } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import { CgList, CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
 
@@ -13,8 +13,8 @@ export const interestData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    title: "Mobile Development",
+    des: "Currently learning mobile apps using React Native",
   },
   {
     id: 3,
@@ -23,15 +23,15 @@ export const interestData = [
     des: "Have completed a Frontend development course. Have developed various projects and hosted them too, check them on my github.",
   },
   {
+    id: 5,
+    icon: <FaCode />,
+    title: "Fullstack Development",
+    des: "Have worked on and completed e-commerce projects using the PHP programming language with the CodeIgniter3 framework and MySQL database",
+  },
+  {
     id: 4,
     icon: <MdAnalytics />,
     title: "Data Analyst",
     des: "Interest analyst data want to get real experience in managing data.",
-  },
-  {
-    id: 5,
-    icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Will learn this soon !",
   },
 ];

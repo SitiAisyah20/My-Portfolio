@@ -1,5 +1,101 @@
 export const projects = [
   {
+    title: "Movie App",
+    desc: "React app for the movie app project to display a list of movies based on keywords using the API https://www.omdbapi.com/",
+    tags: [
+      {
+        name: "React JS",
+        color: "red-600",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-600",
+      },
+      {
+        name: "API from OMDb",
+        color: "yellow-600",
+      },
+    ],
+    img: require("../assets/images/movie.png"),
+    link: "https://movie-app-sitiaisyah.vercel.app/",
+    code: "https://github.com/SitiAisyah20/movie-app.git",
+  },
+  {
+    title: "Hotel Reservation",
+    desc: "React app for project Hotel Reservations are based on location, checkin and checkout dates with API from https://rapidapi.com/tipsters/api/priceline-com-provider/",
+    tags: [
+      {
+        name: "React Native",
+        color: "red-600",
+      },
+      {
+        name: "Expo",
+        color: "green-600",
+      },
+      {
+        name: "Redux",
+        color: "yellow-600",
+      },
+      {
+        name: "Android",
+        color: "blue-600",
+      },
+    ],
+    img: require("../assets/images/hotel.png"),
+    link: "",
+    code: "https://github.com/SitiAisyah20/hotel-app.git",
+  },
+  {
+    title: "Clothing Online Sale",
+    desc: "React app for project Clothing Online Sale is a online shopping website that provides various kinds of women's and men's clothing using API from https://fakestoreapi.com/",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "red-600",
+      },
+      {
+        name: "API from fakestore",
+        color: "green-600",
+      },
+      {
+        name: "Bootstrap",
+        color: "yellow-600",
+      },
+      {
+        name: "Redux",
+        color: "blue-600",
+      },
+    ],
+    img: require("../assets/images/e-com.png"),
+    link: "https://e-commerce-pink-eight.vercel.app/",
+    code: "https://github.com/SitiAisyah20/e-commerce.git",
+  },
+  {
+    title: "Website News",
+    desc: "React app for website to display the latest news using API from https://newsapi.org/",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "red-600",
+      },
+      {
+        name: "API from newsapi",
+        color: "green-600",
+      },
+      {
+        name: "Bootstrap",
+        color: "yellow-600",
+      },
+      {
+        name: "Redux",
+        color: "blue-600",
+      },
+    ],
+    img: require("../assets/images/news.png"),
+    link: "",
+    code: "https://github.com/SitiAisyah20/News.git",
+  },
+  {
     title: "Display Currency Rates",
     desc: "React app for project currency rates to display CAD, IDR, JPY, CHF, EUR and GBP currencies using API from https://currencyfreaks.com/",
     tags: [
@@ -149,6 +245,6 @@ export const projects = [
     ],
     img: require("../assets/images/e-menu.png"),
     link: "",
-    code: "",
+    code: "https://github.com/SitiAisyah20/web-pemesanan-menu.git",
   },
 ];

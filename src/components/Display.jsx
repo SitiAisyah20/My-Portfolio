@@ -6,7 +6,7 @@ import Projects from "./Projects";
 import Experience from "./Experience/Experience";
 import Skills from "./Skills/Skills";
 import Interest from "./Interest/Interest";
-import Awards from "./Awards/Awards";
+// import Awards from "./Awards/Awards";
 
 class Display extends Component {
   render() {
@@ -17,7 +17,7 @@ class Display extends Component {
         <Experience />
         <Skills />
         <Interest />
-        <Awards />
+        {/* <Awards /> */}
         <Projects />
       </div>
     );
