@@ -22,14 +22,14 @@ class Slidebar extends Component {
 
     return (
       <div className="flex-none bg-black h-screen min-w-[25%] fixed ">
-        <div className="nav flex text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
+        <div className="nav flex text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-4 overflow-hidden">
           <div data-aos="slide-down">
             <img
               src={require("../assets/images/myprofile.jpg")}
               alt="Siti Aisyah"
-              className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px]"
+              className="rounded-full border-solid cursor-pointer border-[8px] border-stone-600 min-h-fit mx-auto max-w-[190px]"
             />
-            <h3 className="text-white name py-4 font-medium ">Siti Aisyah</h3>
+            <h3 className="text-white name py-2 font-medium ">Siti Aisyah</h3>
           </div>
           <p
             onClick={() => this.handleSelect(0)}
@@ -71,7 +71,7 @@ class Slidebar extends Component {
           >
             <a href="#skills"> Skills</a>
           </p>
-          <p
+          {/* <p
             onClick={() => this.handleSelect(4)}
             className={`cursor-pointer hover:text-pink-600 hover:-translate-y-0.5 hover:text-xl transition hover:transition ${
               select === 4 ? "text-pink-600 " : ""
@@ -80,7 +80,7 @@ class Slidebar extends Component {
             data-aos="slide-left"
           >
             <a href="#interest"> Interest</a>
-          </p>
+          </p> */}
           {/* <p
             onClick={() => this.handleSelect(5)}
             className={`cursor-pointer hover:text-pink-600 hover:-translate-y-0.5 hover:text-xl transition hover:transition ${
@@ -92,12 +92,12 @@ class Slidebar extends Component {
             <a href="#awards"> Awards</a>
           </p> */}
           <p
-            onClick={() => this.handleSelect(6)}
+            onClick={() => this.handleSelect(4)}
             className={`cursor-pointer hover:text-pink-600 hover:-translate-y-0.5 hover:text-xl transition hover:transition ${
-              select === 6 ? "text-pink-600 " : ""
+              select === 4 ? "text-pink-600 " : ""
             }`}
             data-aos="slide-left"
-            data-aos-delay="2400"
+            data-aos-delay="1800"
           >
             <a href="#projects">Projects</a>
           </p>

@@ -8,7 +8,7 @@ import {
   DiBootstrap,
   DiCodeigniter,
 } from "react-icons/di";
-import { FaGithub, FaPhp, FaReact } from "react-icons/fa";
+import { FaGithub, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiRedux } from "react-icons/si";
 class Skills extends Component {
   render() {
@@ -60,9 +60,6 @@ class Skills extends Component {
                 />
                 <span className="font-bold text-sm">React</span>
               </div>
-            </div>
-            {/* Second Row */}
-            <div className="flex justify-center pb-10">
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
                 <DiBootstrap
                   className="w-full h-auto"
@@ -70,6 +67,10 @@ class Skills extends Component {
                 />
                 <span className="font-bold text-sm">Bootstrap</span>
               </div>
+            </div>
+
+            {/* Second Row */}
+            <div className="flex justify-center pb-10">
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
                 <SiTailwindcss
                   className="w-full h-auto"
@@ -90,6 +91,13 @@ class Skills extends Component {
                   style={{ color: "#dd4814" }}
                 />
                 <span className="font-bold text-sm">CodeIgniter</span>
+              </div>
+              <div className="w-20 md:w-24 mx-2 border-2 p-4">
+                <FaLaravel
+                  className="w-full h-auto"
+                  style={{ color: "red" }}
+                />
+                <span className="font-bold text-sm">Laravel</span>
               </div>
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
                 <DiMysql

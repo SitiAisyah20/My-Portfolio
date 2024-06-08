@@ -30,17 +30,17 @@ class About extends Component {
               </span>
               . Experienced in building and deploying frontend applications with
               React JS. Apart from that, I am also able to use the PHP framework
-              in the form of CodeIgniter, have knowledge of MySQL and currently
-              I am also learning to use a JavaScript library or framework to
-              build mobile applications using React Native and I can use Github
-              flow.
+              in the form of CodeIgniter and Laravel , have knowledge of MySQL
+              and currently I am also learning to use a JavaScript library or
+              framework to build mobile applications using React Native and I
+              can use Github flow.
             </p>
             <p
               className="text-justify leading-7 text-white text-slate-900"
               data-aos={"fade-right"}
             >
-              Seeking an entry-level position as a{" "}
-              <span className="text-pink-600">Frontend Developer</span> to
+              Have an interest as a{" "}
+              <span className="text-pink-600">Frontend Developer or Web Developer</span> to
               leverage my knowledge and skills to create dynamic user
               experiences. Dedicated to delivering high-quality results in a
               deadline-driven environment and able to collaborate with the team.

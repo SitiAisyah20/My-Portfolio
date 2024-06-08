@@ -27,7 +27,7 @@ class Home extends Component {
             options={{
               strings: [
                 "Hallo, I'm Siti Aisyah",
-                "I'm an enthusiast Frontend developer",
+                "I'm a Frontend Developer or Web Developer",
                 "You can contact me through LinkedIn or Telegram.",
               ],
               delay: 150,
