@@ -31,7 +31,34 @@ class Experience extends Component {
               Apr 2024 - Present
             </time>
             <ol class="mb-4 text-base font-normal text-gray-400 text-justify p-4">
-              <li></li>
+              <li className="mb-2">
+                - Developed and updated several school websites using React JS
+                and Laravel, improving site speed and responsiveness by 30%,
+                resulting in a 25% increase in user satisfaction.
+              </li>
+              <li className="mb-2">
+                - Develop and manage the MI, MTS and MA New Student Admissions
+                system in the Yogyakarta Integrated Tahfidz Achievement Pathway
+                using React JS which increases the efficiency of the
+                registration process by up to 40%.
+              </li>
+              <li className="mb-2">
+                - Developing the PPDB MAN 1 Yogyakarta system with various
+                registration paths such as the regular path, tahfidz path, and
+                achievement path using the Laravel framework which can increase
+                data processing speed by 60%.
+              </li>
+              <li className="mb-2">
+                - Responsible for updating and improving several existing school
+                websites, using React JS and Laravel. This update improves
+                website performance by 20% and improves user experience by 30%.
+              </li>
+              <li className="mb-2">
+                - Created a backend API using Express JS, facilitating seamless
+                data communication between the frontend and backend systems,
+                which enhanced application scalability and reduced server
+                response times by 40%.
+              </li>
             </ol>
           </li>
           <li class="mb-10" data-aos="zoom-in">

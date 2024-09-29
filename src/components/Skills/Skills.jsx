@@ -8,8 +8,8 @@ import {
   DiBootstrap,
   DiCodeigniter,
 } from "react-icons/di";
-import { FaGithub, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiRedux } from "react-icons/si";
+import { FaGithub, FaLaravel, FaPhp, FaReact, FaTrello } from "react-icons/fa";
+import { SiTailwindcss, SiRedux, SiExpress, SiPostman } from "react-icons/si";
 class Skills extends Component {
   render() {
     return (
@@ -93,11 +93,15 @@ class Skills extends Component {
                 <span className="font-bold text-sm">CodeIgniter</span>
               </div>
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
-                <FaLaravel
-                  className="w-full h-auto"
-                  style={{ color: "red" }}
-                />
+                <FaLaravel className="w-full h-auto" style={{ color: "red" }} />
                 <span className="font-bold text-sm">Laravel</span>
+              </div>
+              <div className="w-20 md:w-24 mx-2 border-2 p-4">
+                <SiExpress
+                  className="w-full h-auto"
+                  style={{ color: "gray" }}
+                />
+                <span className="font-bold text-sm">Express JS</span>
               </div>
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
                 <DiMysql
@@ -107,8 +111,27 @@ class Skills extends Component {
                 <span className="font-bold text-sm">MySQL</span>
               </div>
               <div className="w-20 md:w-24 mx-2 border-2 p-4">
+                <SiPostman
+                  className="w-full h-auto"
+                  style={{ color: "#FF6C37" }}
+                />
+                <span className="font-bold text-sm">Postman</span>
+              </div>
+            </div>
+            
+            {/* Third Row */}
+            <div className="flex justify-center pb-10">
+              <div className="w-20 md:w-24 mx-2 border-2 p-4">
                 <FaGithub className="w-full h-auto" />
                 <span className="font-bold text-sm">Github</span>
+              </div>
+
+              <div className="w-20 md:w-24 mx-2 border-2 p-4">
+                <FaTrello
+                  className="w-full h-auto"
+                  style={{ color: "#0079BF" }}
+                />
+                <span className="font-bold text-sm">Trello</span>
               </div>
             </div>
           </div>
